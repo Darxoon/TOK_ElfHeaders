@@ -1,0 +1,52 @@
+typedef unsigned char   undefined;
+
+typedef unsigned char    byte;
+typedef unsigned int    dword;
+typedef unsigned long    qword;
+typedef unsigned char    undefined1;
+typedef unsigned short    word;
+typedef struct map map, *Pmap;
+
+struct map {
+    pointer s_mapIdData;
+    undefined * field_0x8;
+    undefined * field_0x10;
+    undefined * field_0x18;
+    int field_0x20;
+    int field_0x24;
+    undefined * field_0x28;
+    undefined * field_0x30;
+    int field_0x38;
+    int field_0x3c;
+    int field_0x40;
+    int field_0x44;
+    undefined * field_0x48;
+    undefined * field_0x50;
+    int field_0x58;
+    int field_0x5c;
+    int field_0x60;
+    int field_0x64;
+    int field_0x68;
+    int field_0x6c;
+    int field_0x70;
+    int field_0x74;
+    int field_0x78;
+    int field_0x7c;
+    int field_0x80;
+    int field_0x84;
+    int field_0x88;
+    int field_0x8c;
+    int field_0x90;
+    int field_0x94;
+    int field_0x98;
+    int field_0x9c;
+    int field_0xa0;
+    int field_0xa4;
+    int field_0xa8;
+    int field_0xac;
+    int field_0xb0;
+    int field_0xb4;
+    int field_0xb8;
+    int field_0xbc;
+};
+

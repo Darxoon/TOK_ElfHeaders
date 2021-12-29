@@ -1,0 +1,53 @@
+typedef unsigned char   undefined;
+
+typedef unsigned char    byte;
+typedef unsigned int    dword;
+typedef unsigned long    qword;
+typedef unsigned char    undefined1;
+typedef unsigned short    word;
+typedef struct NpcDataEntry NpcDataEntry, *PNpcDataEntry;
+
+struct NpcDataEntry {
+    pointer * field_0x0;
+    pointer * field_0x8;
+    int field_0x10;
+    int field_0x14;
+    pointer * field_0x18;
+    pointer * field_0x20;
+    pointer * instance_script_str;
+    pointer * field_0x30;
+    int field_0x38;
+    float field_0x3c;
+    float field_0x40;
+    float field_0x44;
+    float field_0x48;
+    float field_0x4c;
+    float field_0x50;
+    int field_0x54;
+    int field_0x58;
+    int field_0x5c;
+    int field_0x60;
+    int field_0x64;
+    pointer * field_0x68;
+    pointer * field_0x70;
+    pointer * field_0x78;
+    pointer * field_0x80;
+    pointer * field_0x88;
+    pointer * field_0x90;
+    pointer * field_0x98;
+    pointer * field_0xa0;
+    pointer * field_0xa8;
+    pointer * field_0xb0;
+    pointer * field_0xb8;
+    pointer * field_0xc0;
+    pointer * field_0xc8;
+    pointer * field_0xd0;
+    pointer * field_0xd8;
+    pointer * field_0xe0;
+    pointer * field_0xe8;
+    pointer * field_0xf0;
+    pointer * field_0xf8;
+    pointer * field_0x100;
+    pointer * field_0x108;
+};
+

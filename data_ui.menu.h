@@ -6,9 +6,9 @@ typedef unsigned long    qword;
 typedef unsigned char    undefined1;
 typedef unsigned int    undefined4;
 typedef unsigned short    word;
-typedef struct menu.conflict menu.conflict, *Pmenu.conflict;
+typedef struct menu_conflict menu_conflict, *Pmenu_conflict;
 
-struct menu.conflict {
+struct menu_conflict {
     pointer s_menuData;
     pointer field1_0x8;
     long field2_0x10;
